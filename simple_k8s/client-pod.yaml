@@ -3,10 +3,10 @@ kind: Pod
 metadata:
   name: client-pod
   labels:
-    component: web
+    popa: web
 spec:
   containers:
     - name: client
-      image: stephengrider/multi-client
+      image: stephengrider/multi-worker
       ports:
-        - containerPort: 3000
+        - containerPort: 9999
