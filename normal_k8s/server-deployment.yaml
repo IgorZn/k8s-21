@@ -11,9 +11,9 @@ spec:
     metadata:
       labels:
         component: server
-      spec:
-        containers:
-          - name: server
-            image: stephengrider/multi-sever
-            ports:
-              - containerPort: 5000
+    spec:
+      containers:
+        - name: server
+          image: stephengrider/multi-server
+          ports:
+            - containerPort: 5000

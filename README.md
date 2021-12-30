@@ -16,6 +16,10 @@ kubectl get deployments
 ```
 
 ```shell
+kubectl get services
+```
+
+```shell
 kubectl describe pods
 ```
 
