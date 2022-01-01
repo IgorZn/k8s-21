@@ -1,5 +1,5 @@
 ### Start minicube with docker driver
-```shellget 
+```shell
 minikube start --driver=virtualbox --no-vtx-check
 ```
 
